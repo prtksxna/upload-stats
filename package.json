@@ -1,0 +1,15 @@
+{
+  "name": "dctest",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "dc": "~2.0.0-beta.32",
+    "bootstrap": "~3.3.7"
+  }
+}

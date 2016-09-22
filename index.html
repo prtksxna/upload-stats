@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Upload stats</title>
+
+	<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="node_modules/dc/dc.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">Upload stats</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://phabricator.wikimedia.org/T144992">Phabricator task</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+	<h1>Uploads <small>July - August 2016</h1>
+	<div class="row">
+		<div class="col-md-4">
+			<h2>Quality of upload</h2>
+			<div id="quality"></div>
+		</div>
+		<div class="col-md-4">
+			<h2>Upload tool</h2>
+			<div id="tool"></div>
+		</div>
+		<div class="col-md-4">
+			<h2>User</h2>
+			<div id="user"></div>
+		</div>
+		<div class="col-md-12">
+			<h2>Uploads</h2>
+			<div id="uploads"></div>
+		</div>
+	</div>
+</div>
+
+<script src="node_modules/dc/node_modules/d3/d3.min.js"></script>
+<script src="node_modules/dc/node_modules/crossfilter2/crossfilter.min.js"></script>
+<script src="node_modules/dc/dc.js"></script>
+<script src="test.js"></script>
+
+</body>
+</html>
